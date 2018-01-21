@@ -11,5 +11,5 @@
 |
 */
 
-$router->get('/withdraw', 'ATMController@returnEmpty');
+$router->get('/withdraw', 'ATMController@returnEmptyArray');
 $router->get('/withdraw/{val}', 'ATMController@withdraw');
