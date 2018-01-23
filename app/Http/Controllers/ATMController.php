@@ -22,10 +22,9 @@ class ATMController extends Controller
     }
     
     /**
-     * Process the request for withdraw
-     * returns an array of arrays where 
-     * the first array is the amount of each notes to be withdraw
-     * the second array is the available notes to be withdraw
+     * Process the request for withdraw and
+     * returns an array where the higher notes 
+     * have priority
      *
      * @return array
      */
