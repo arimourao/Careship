@@ -8,7 +8,8 @@ use App\Exceptions\NoteUnavailableException;
 class ATMController extends Controller
 {
     /**
-     * 
+     * Validates user inputs
+     * @return void
      */
     public function validateUserInput($userInput) {
 
